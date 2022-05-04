@@ -57,6 +57,15 @@
 	img{
 		vertical-align:middle;
 	}
+	#marker{
+		height: 6px;
+		background: #171c21 !important;
+		position: absolute;
+		bottom: 0;
+		width: 160px;
+		z-index: 2;
+		left: 1025px;
+	}
 </style>
 <table class="results-table" id="idLogRecords">
 <tr class="report-header">

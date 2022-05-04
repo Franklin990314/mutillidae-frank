@@ -68,6 +68,18 @@
 //-->
 </script>
 
+<style>
+	#marker{
+		height: 6px;
+		background: #171c21 !important;
+		position: absolute;
+		bottom: 0;
+		width: 168px;
+		z-index: 2;
+		left: 200px;
+	}
+</style>
+
 <div class="page-title">Login</div>
 
 <?php include_once (__ROOT__.'/includes/back-button.inc');?>

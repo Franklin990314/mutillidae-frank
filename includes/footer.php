@@ -23,16 +23,18 @@
 		break;
    	}// end switch
 ?>
-				<!-- End Content -->
-    			</td>
-    		</tr>
-    		<tr class="main-table-frame-dark">
+			<!-- End Content -->
+			<table class="main-table-frame">
+            <tbody>
+                <tr><td class="main-table-frame-left"></td></tr>
+                <tr class="main-table-frame-dark">
     			<td colspan="2">
-    				Browser: <?php echo $lUserAgentString; ?>
-    				<br/>
-    				<?php echo $lPHPVersion; ?>
-    			</td>
-    		</tr>
-    	</table>
+                        Browser: <?php echo $lUserAgentString; ?>
+                        <br/>
+                        <?php echo $lPHPVersion; ?>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>

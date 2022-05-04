@@ -506,6 +506,7 @@
 	* BEGIN OUTPUT RESPONSE
 	* ------------------------------------------ */
 	require_once (__ROOT__."/includes/header.php");
+	require_once (__ROOT__."/includes/sidebar.php");
 
 	if (strlen($lPage)==0 || !isset($lPage)){
 		/* Default Page */
